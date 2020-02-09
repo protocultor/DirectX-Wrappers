@@ -1,5 +1,7 @@
 #pragma once
 
+#include <memory>
+
 class m_IDirectInputA : public IDirectInputA, public AddressLookupTableObject
 {
 private:
